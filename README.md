@@ -1,0 +1,1 @@
+# negociacao-app-ecms6
