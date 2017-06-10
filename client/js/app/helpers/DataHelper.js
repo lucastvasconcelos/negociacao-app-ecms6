@@ -1,4 +1,7 @@
 class DataHelper{
+    constructor(){
+        throw new Error("não pode instanciar essa porra")
+    }
     static textoParaData(data){
         return new Date(...data.split('-').map((item,indice) => item - indice%2 ))
     }
